@@ -7231,6 +7231,30 @@ TS-003</description>
 <vertex x="2.5654" y="3.937"/>
 </polygon>
 </package>
+<package name="DO41-10">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="A" x="5.08" y="0" drill="1.1176" diameter="1.9304"/>
+<pad name="C" x="-5.08" y="0" drill="1.1176" diameter="1.9304"/>
+<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.032" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
+<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
+<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PINHD6">
@@ -7258,6 +7282,17 @@ TS-003</description>
 <pin name="VI" x="-10.16" y="0" length="short" direction="in"/>
 <pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="VO" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="D">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7432,6 +7467,26 @@ Added bigger pads to the TO-92 package</description>
 <technology name="15"/>
 <technology name="18"/>
 <technology name="24"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N4004" prefix="D">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+General purpose 1N400x type rectifier
+&lt;p&gt;(With bigger pads)&lt;/p&gt;
+&lt;p&gt;http://www.ladyada.net/library/pcb/eaglelibrary.html&lt;p&gt;</description>
+<gates>
+<gate name="1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO41-10">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -7753,7 +7808,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="CHIP-REGULATOR" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="DT" package3d_urn="urn:adsk.eagle:package:16415/2" technology="05"/>
 <part name="LCD1" library="SparkFun-Displays" deviceset="LCD-16X2" device="NOHOLES" override_package3d_urn="urn:adsk.eagle:package:24334248/2" override_package_urn="urn:adsk.eagle:footprint:24334249/1"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH_BREAD" override_package3d_urn="urn:adsk.eagle:package:24334302/2" override_package_urn="urn:adsk.eagle:footprint:24334303/1"/>
-<part name="VALVES-SUPPLY" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA8" device="" package3d_urn="urn:adsk.eagle:package:9620/1">
+<part name="VALVES-SUPPLY" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA8" device="" package3d_urn="urn:adsk.eagle:package:9620/1" override_package3d_urn="urn:adsk.eagle:package:24339764/2" override_package_urn="urn:adsk.eagle:footprint:9526/1">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
@@ -7770,19 +7825,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" override_package3d_urn="urn:adsk.eagle:package:24334298/2" override_package_urn="urn:adsk.eagle:footprint:24334299/1" value=" "/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="VALVE" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA6" device="" package3d_urn="urn:adsk.eagle:package:9616/1"/>
-<part name="COMMON-GND" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA6" device="" package3d_urn="urn:adsk.eagle:package:9616/1"/>
-<part name="5V-SUPPLY" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA6" device="" package3d_urn="urn:adsk.eagle:package:9616/1"/>
+<part name="VALVE" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA6" device="" package3d_urn="urn:adsk.eagle:package:9616/1" override_package3d_urn="urn:adsk.eagle:package:24339798/2" override_package_urn="urn:adsk.eagle:footprint:9524/1"/>
+<part name="COMMON-GND" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA6" device="" package3d_urn="urn:adsk.eagle:package:9616/1" override_package3d_urn="urn:adsk.eagle:package:24339781/2" override_package_urn="urn:adsk.eagle:footprint:9524/1"/>
+<part name="5V-SUPPLY" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA6" device="" package3d_urn="urn:adsk.eagle:package:9616/1" override_package3d_urn="urn:adsk.eagle:package:24339787/2" override_package_urn="urn:adsk.eagle:footprint:9524/1"/>
 <part name="ISP-HEADER" library="SparkFun-Connectors" deviceset="AVR_SPI_PROG_3X2" device="NS" override_package3d_urn="urn:adsk.eagle:package:24334515/2" override_package_urn="urn:adsk.eagle:footprint:24334516/1"/>
-<part name="VALVES-GND" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA8" device="" package3d_urn="urn:adsk.eagle:package:9620/1"/>
+<part name="VALVES-GND" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MSTBA8" device="" package3d_urn="urn:adsk.eagle:package:9620/1" override_package3d_urn="urn:adsk.eagle:package:24339756/2" override_package_urn="urn:adsk.eagle:footprint:9526/1"/>
 <part name="REG-1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/2" technology="05"/>
 <part name="REG-2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/2" technology="05"/>
 <part name="5V-INP" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM" override_package3d_urn="urn:adsk.eagle:package:24334669/2" override_package_urn="urn:adsk.eagle:footprint:24334670/1"/>
 <part name="RELAY-5V" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM" override_package3d_urn="urn:adsk.eagle:package:24334664/2" override_package_urn="urn:adsk.eagle:footprint:24334665/1"/>
 <part name="12V-INPUT" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM" override_package3d_urn="urn:adsk.eagle:package:24334674/2" override_package_urn="urn:adsk.eagle:footprint:24334675/1"/>
 <part name="DEBUG" library="adafruit" deviceset="PINHD-1X6" device="B" override_package3d_urn="urn:adsk.eagle:package:24334676/2" override_package_urn="urn:adsk.eagle:footprint:24334677/1"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" value="100uF"/>
-<part name="IC2" library="adafruit" deviceset="78*" device="DT" technology="05"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" override_package3d_urn="urn:adsk.eagle:package:24339134/2" override_package_urn="urn:adsk.eagle:footprint:24339135/1" value="100uF"/>
+<part name="PWR-CHK-REG" library="adafruit" deviceset="78*" device="DT" override_package3d_urn="urn:adsk.eagle:package:24339171/2" override_package_urn="urn:adsk.eagle:footprint:24339173/1" technology="05"/>
+<part name="D1" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24340694/2" override_package_urn="urn:adsk.eagle:footprint:24340695/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8013,12 +8069,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="-6.35" y="5.08" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="-43.18" y="124.46" smashed="yes">
-<attribute name="NAME" x="-42.164" y="125.095" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="-39.116" y="126.365" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-42.164" y="120.269" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="IC2" gate="A1" x="-63.5" y="167.64" smashed="yes">
+<instance part="PWR-CHK-REG" gate="A1" x="-63.5" y="167.64" smashed="yes">
 <attribute name="NAME" x="-71.12" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-71.12" y="170.815" size="1.778" layer="96"/>
+</instance>
+<instance part="D1" gate="1" x="-88.9" y="167.64" smashed="yes">
+<attribute name="NAME" x="-86.36" y="168.1226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-86.36" y="165.3286" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8027,18 +8087,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="12VDC" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="PWR"/>
-<pinref part="CHIP-REGULATOR" gate="A1" pin="VI"/>
 <wire x1="-111.76" y1="137.16" x2="-104.14" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="137.16" x2="-93.98" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="137.16" x2="-86.36" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="137.16" x2="-104.14" y2="111.76" width="0.1524" layer="91"/>
 <junction x="-104.14" y="137.16"/>
 <wire x1="-104.14" y1="111.76" x2="-121.92" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-93.98" y1="137.16" x2="-93.98" y2="147.32" width="0.1524" layer="91"/>
-<junction x="-93.98" y="137.16"/>
-<wire x1="-93.98" y1="147.32" x2="-93.98" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="149.86" x2="-109.22" y2="149.86" width="0.1524" layer="91"/>
-<label x="-109.22" y="149.86" size="1.778" layer="95"/>
 <wire x1="-121.92" y1="111.76" x2="-121.92" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="REG-1" gate="A1" pin="VI"/>
 <wire x1="-121.92" y1="101.6" x2="-116.84" y2="101.6" width="0.1524" layer="91"/>
@@ -8049,11 +8103,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="12V-INPUT" gate="CON" pin="1"/>
 <wire x1="-139.7" y1="137.16" x2="-149.86" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="-149.86" y1="137.16" x2="-149.86" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="-149.86" y1="147.32" x2="-93.98" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="147.32" x2="-109.22" y2="147.32" width="0.1524" layer="91"/>
 <junction x="-93.98" y="147.32"/>
-<pinref part="IC2" gate="A1" pin="VI"/>
-<wire x1="-73.66" y1="167.64" x2="-93.98" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="147.32" x2="-93.98" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="-93.98" y1="167.64" x2="-93.98" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="160.02" x2="-124.46" y2="160.02" width="0.1524" layer="91"/>
+<label x="-127" y="160.02" size="1.778" layer="95"/>
+<wire x1="-109.22" y1="160.02" x2="-109.22" y2="147.32" width="0.1524" layer="91"/>
+<junction x="-109.22" y="147.32"/>
+<pinref part="D1" gate="1" pin="A"/>
+<wire x1="-93.98" y1="167.64" x2="-91.44" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="VALVES-SUPPLY" gate="-1" pin="1"/>
@@ -8256,7 +8315,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="-43.18" y1="119.38" x2="-43.18" y2="109.22" width="0.1524" layer="91"/>
 <junction x="-43.18" y="109.22"/>
-<pinref part="IC2" gate="A1" pin="GND"/>
+<pinref part="PWR-CHK-REG" gate="A1" pin="GND"/>
 <wire x1="-63.5" y1="160.02" x2="-63.5" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="157.48" x2="-12.7" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="157.48" x2="-12.7" y2="109.22" width="0.1524" layer="91"/>
@@ -8723,7 +8782,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="POWER-CHECK" class="0">
 <segment>
-<pinref part="IC2" gate="A1" pin="VO"/>
+<pinref part="PWR-CHK-REG" gate="A1" pin="VO"/>
 <wire x1="-53.34" y1="167.64" x2="-43.18" y2="167.64" width="0.1524" layer="91"/>
 <label x="-43.18" y="167.64" size="1.778" layer="95"/>
 </segment>
@@ -8733,6 +8792,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="81.28" y1="38.1" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="33.02" x2="109.22" y2="33.02" width="0.1524" layer="91"/>
 <label x="109.22" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PROT-12V" class="0">
+<segment>
+<pinref part="D1" gate="1" pin="C"/>
+<pinref part="PWR-CHK-REG" gate="A1" pin="VI"/>
+<wire x1="-86.36" y1="167.64" x2="-78.74" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="CHIP-REGULATOR" gate="A1" pin="VI"/>
+<wire x1="-78.74" y1="167.64" x2="-73.66" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="137.16" x2="-86.36" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="157.48" x2="-78.74" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="157.48" x2="-78.74" y2="167.64" width="0.1524" layer="91"/>
+<junction x="-78.74" y="167.64"/>
+<wire x1="-78.74" y1="167.64" x2="-78.74" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="175.26" x2="-88.9" y2="175.26" width="0.1524" layer="91"/>
+<label x="-88.9" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
