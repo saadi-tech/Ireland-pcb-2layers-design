@@ -8223,61 +8223,63 @@ Allows current flow when high potential at base.</description>
 <part name="PWR-CHK-REG" library="adafruit" deviceset="78*" device="DT" override_package3d_urn="urn:adsk.eagle:package:24339171/2" override_package_urn="urn:adsk.eagle:footprint:24339173/1" technology="05"/>
 <part name="D1" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24340694/2" override_package_urn="urn:adsk.eagle:footprint:24340695/1"/>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:24458744/2" override_package_urn="urn:adsk.eagle:footprint:21858/1"/>
-<part name="K1" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device=""/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
+<part name="K1" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device="" override_package3d_urn="urn:adsk.eagle:package:24459137/2" override_package_urn="urn:adsk.eagle:footprint:24459138/1"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" override_package3d_urn="urn:adsk.eagle:package:24459683/2" override_package_urn="urn:adsk.eagle:footprint:24459685/1" value="500mA/300V"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="LED1" library="SparkFun-Retired" deviceset="LED" device="1206"/>
-<part name="D2" library="adafruit" deviceset="1N4004" device=""/>
-<part name="D3" library="adafruit" deviceset="1N4004" device=""/>
-<part name="VALVE-B" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
+<part name="LED1" library="SparkFun-Retired" deviceset="LED" device="1206" override_package3d_urn="urn:adsk.eagle:package:24459796/2" override_package_urn="urn:adsk.eagle:footprint:24459797/1"/>
+<part name="D2" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24459667/2" override_package_urn="urn:adsk.eagle:footprint:24459668/1"/>
+<part name="D3" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24459662/2" override_package_urn="urn:adsk.eagle:footprint:24459663/1"/>
+<part name="VALVE-B" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM" override_package3d_urn="urn:adsk.eagle:package:24459222/2" override_package_urn="urn:adsk.eagle:footprint:24459223/1"/>
 <part name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:24458748/2" override_package_urn="urn:adsk.eagle:footprint:21858/1">
 <attribute name="SPICEPREFIX" value="O"/>
 </part>
-<part name="K2" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device=""/>
-<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
+<part name="K2" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device="" override_package3d_urn="urn:adsk.eagle:package:24459186/2" override_package_urn="urn:adsk.eagle:footprint:24459187/1"/>
+<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" override_package3d_urn="urn:adsk.eagle:package:24459709/2" override_package_urn="urn:adsk.eagle:footprint:24459711/1" value="500mA/300V"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="LED2" library="SparkFun-Retired" deviceset="LED" device="1206"/>
-<part name="D4" library="adafruit" deviceset="1N4004" device=""/>
-<part name="D5" library="adafruit" deviceset="1N4004" device=""/>
-<part name="VALVE-A1" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
+<part name="LED2" library="SparkFun-Retired" deviceset="LED" device="1206" override_package3d_urn="urn:adsk.eagle:package:24459789/2" override_package_urn="urn:adsk.eagle:footprint:24459790/1"/>
+<part name="D4" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24459656/2" override_package_urn="urn:adsk.eagle:footprint:24459657/1"/>
+<part name="D5" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24459646/2" override_package_urn="urn:adsk.eagle:footprint:24459647/1"/>
+<part name="VALVE-A1" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM" override_package3d_urn="urn:adsk.eagle:package:24459241/2" override_package_urn="urn:adsk.eagle:footprint:24459242/1"/>
 <part name="OK3" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:24458759/2" override_package_urn="urn:adsk.eagle:footprint:21858/1"/>
-<part name="K3" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device=""/>
-<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
+<part name="K3" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device="" override_package3d_urn="urn:adsk.eagle:package:24459196/2" override_package_urn="urn:adsk.eagle:footprint:24459197/1"/>
+<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" override_package3d_urn="urn:adsk.eagle:package:24459712/2" override_package_urn="urn:adsk.eagle:footprint:24459713/1" value="500mA/300V"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="LED3" library="SparkFun-Retired" deviceset="LED" device="1206"/>
-<part name="D6" library="adafruit" deviceset="1N4004" device=""/>
-<part name="D7" library="adafruit" deviceset="1N4004" device=""/>
-<part name="VALVE-C" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
+<part name="LED3" library="SparkFun-Retired" deviceset="LED" device="1206" override_package3d_urn="urn:adsk.eagle:package:24459787/2" override_package_urn="urn:adsk.eagle:footprint:24459788/1"/>
+<part name="D6" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24459642/2" override_package_urn="urn:adsk.eagle:footprint:24459644/1"/>
+<part name="D7" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24459636/2" override_package_urn="urn:adsk.eagle:footprint:24459637/1"/>
+<part name="VALVE-C" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM" override_package3d_urn="urn:adsk.eagle:package:24459255/2" override_package_urn="urn:adsk.eagle:footprint:24459256/1"/>
 <part name="OK4" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:24458765/2" override_package_urn="urn:adsk.eagle:footprint:21858/1"/>
-<part name="K4" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device=""/>
-<part name="Q4" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
+<part name="K4" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device="" override_package3d_urn="urn:adsk.eagle:package:24459202/2" override_package_urn="urn:adsk.eagle:footprint:24459203/1"/>
+<part name="Q4" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" override_package3d_urn="urn:adsk.eagle:package:24459714/2" override_package_urn="urn:adsk.eagle:footprint:24459715/1" value="500mA/300V"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="LED4" library="SparkFun-Retired" deviceset="LED" device="1206"/>
-<part name="D8" library="adafruit" deviceset="1N4004" device=""/>
-<part name="D9" library="adafruit" deviceset="1N4004" device=""/>
-<part name="VALVE-D" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
+<part name="LED4" library="SparkFun-Retired" deviceset="LED" device="1206" override_package3d_urn="urn:adsk.eagle:package:24459778/2" override_package_urn="urn:adsk.eagle:footprint:24459779/1"/>
+<part name="D8" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24459622/2" override_package_urn="urn:adsk.eagle:footprint:24459623/1"/>
+<part name="D9" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24459616/2" override_package_urn="urn:adsk.eagle:footprint:24459617/1"/>
+<part name="VALVE-D" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM" override_package3d_urn="urn:adsk.eagle:package:24459263/2" override_package_urn="urn:adsk.eagle:footprint:24459264/1"/>
 <part name="OK5" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:24458771/2" override_package_urn="urn:adsk.eagle:footprint:21858/1"/>
-<part name="K5" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device=""/>
-<part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
+<part name="K5" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device="" override_package3d_urn="urn:adsk.eagle:package:24459209/2" override_package_urn="urn:adsk.eagle:footprint:24459210/1"/>
+<part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" override_package3d_urn="urn:adsk.eagle:package:24459719/2" override_package_urn="urn:adsk.eagle:footprint:24459720/1" value="500mA/300V"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="LED5" library="SparkFun-Retired" deviceset="LED" device="1206"/>
-<part name="D10" library="adafruit" deviceset="1N4004" device=""/>
-<part name="D11" library="adafruit" deviceset="1N4004" device=""/>
-<part name="VALVE-E" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
+<part name="LED5" library="SparkFun-Retired" deviceset="LED" device="1206" override_package3d_urn="urn:adsk.eagle:package:24459773/2" override_package_urn="urn:adsk.eagle:footprint:24459774/1"/>
+<part name="D10" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24459608/2" override_package_urn="urn:adsk.eagle:footprint:24459610/1"/>
+<part name="D11" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24459463/2" override_package_urn="urn:adsk.eagle:footprint:24459491/1"/>
+<part name="VALVE-E" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM" override_package3d_urn="urn:adsk.eagle:package:24459287/2" override_package_urn="urn:adsk.eagle:footprint:24459288/1"/>
 <part name="OK6" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:24459125/2" override_package_urn="urn:adsk.eagle:footprint:21858/1"/>
-<part name="K6" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device=""/>
-<part name="Q6" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
+<part name="K6" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device="" override_package3d_urn="urn:adsk.eagle:package:24459216/2" override_package_urn="urn:adsk.eagle:footprint:24459217/1">
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
+<part name="Q6" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" override_package3d_urn="urn:adsk.eagle:package:24459721/2" override_package_urn="urn:adsk.eagle:footprint:24459722/1" value="500mA/300V"/>
 <part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="LED6" library="SparkFun-Retired" deviceset="LED" device="1206"/>
-<part name="D12" library="adafruit" deviceset="1N4004" device=""/>
-<part name="D13" library="adafruit" deviceset="1N4004" device=""/>
-<part name="VALVE-F" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
+<part name="LED6" library="SparkFun-Retired" deviceset="LED" device="1206" override_package3d_urn="urn:adsk.eagle:package:24459728/2" override_package_urn="urn:adsk.eagle:footprint:24459737/1"/>
+<part name="D12" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24459339/2" override_package_urn="urn:adsk.eagle:footprint:24459340/1"/>
+<part name="D13" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24459332/2" override_package_urn="urn:adsk.eagle:footprint:24459336/1"/>
+<part name="VALVE-F" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM" override_package3d_urn="urn:adsk.eagle:package:24459308/2" override_package_urn="urn:adsk.eagle:footprint:24459311/1"/>
 </parts>
 <sheets>
 <sheet>

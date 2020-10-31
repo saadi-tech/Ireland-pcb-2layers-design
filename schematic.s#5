@@ -8227,7 +8227,6 @@ Allows current flow when high potential at base.</description>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="LED1" library="SparkFun-Retired" deviceset="LED" device="1206"/>
 <part name="D2" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D3" library="adafruit" deviceset="1N4004" device=""/>
@@ -8237,7 +8236,6 @@ Allows current flow when high potential at base.</description>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="LED2" library="SparkFun-Retired" deviceset="LED" device="1206"/>
 <part name="D4" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D5" library="adafruit" deviceset="1N4004" device=""/>
@@ -8247,7 +8245,6 @@ Allows current flow when high potential at base.</description>
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="LED3" library="SparkFun-Retired" deviceset="LED" device="1206"/>
 <part name="D6" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D7" library="adafruit" deviceset="1N4004" device=""/>
@@ -8257,7 +8254,6 @@ Allows current flow when high potential at base.</description>
 <part name="Q4" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="LED4" library="SparkFun-Retired" deviceset="LED" device="1206"/>
 <part name="D8" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D9" library="adafruit" deviceset="1N4004" device=""/>
@@ -8267,7 +8263,6 @@ Allows current flow when high potential at base.</description>
 <part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="LED5" library="SparkFun-Retired" deviceset="LED" device="1206"/>
 <part name="D10" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D11" library="adafruit" deviceset="1N4004" device=""/>
@@ -8277,7 +8272,6 @@ Allows current flow when high potential at base.</description>
 <part name="Q6" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
 <part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
-<part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
 <part name="LED6" library="SparkFun-Retired" deviceset="LED" device="1206"/>
 <part name="D12" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D13" library="adafruit" deviceset="1N4004" device=""/>
@@ -8543,10 +8537,6 @@ Allows current flow when high potential at base.</description>
 <attribute name="NAME" x="176.276" y="233.68" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="179.324" y="233.68" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R8" gate="G$1" x="210.82" y="261.62" smashed="yes">
-<attribute name="NAME" x="210.82" y="263.144" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="210.82" y="260.096" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="LED1" gate="G$1" x="175.26" y="195.58" smashed="yes">
 <attribute name="NAME" x="178.816" y="191.008" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="180.975" y="191.008" size="1.778" layer="96" rot="R90"/>
@@ -8581,10 +8571,6 @@ Allows current flow when high potential at base.</description>
 <instance part="R10" gate="G$1" x="299.72" y="246.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="298.196" y="246.38" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="301.244" y="246.38" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R11" gate="G$1" x="332.74" y="274.32" smashed="yes">
-<attribute name="NAME" x="332.74" y="275.844" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="332.74" y="272.796" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="LED2" gate="G$1" x="297.18" y="208.28" smashed="yes">
 <attribute name="NAME" x="300.736" y="203.708" size="1.778" layer="95" rot="R90"/>
@@ -8621,10 +8607,6 @@ Allows current flow when high potential at base.</description>
 <attribute name="NAME" x="415.036" y="251.46" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="418.084" y="251.46" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R14" gate="G$1" x="449.58" y="279.4" smashed="yes">
-<attribute name="NAME" x="449.58" y="280.924" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="449.58" y="277.876" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="LED3" gate="G$1" x="414.02" y="213.36" smashed="yes">
 <attribute name="NAME" x="417.576" y="208.788" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="419.735" y="208.788" size="1.778" layer="96" rot="R90"/>
@@ -8659,10 +8641,6 @@ Allows current flow when high potential at base.</description>
 <instance part="R16" gate="G$1" x="543.56" y="256.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="542.036" y="256.54" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="545.084" y="256.54" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R17" gate="G$1" x="576.58" y="284.48" smashed="yes">
-<attribute name="NAME" x="576.58" y="286.004" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="576.58" y="282.956" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="LED4" gate="G$1" x="541.02" y="218.44" smashed="yes">
 <attribute name="NAME" x="544.576" y="213.868" size="1.778" layer="95" rot="R90"/>
@@ -8699,10 +8677,6 @@ Allows current flow when high potential at base.</description>
 <attribute name="NAME" x="679.196" y="271.78" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="682.244" y="271.78" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R20" gate="G$1" x="713.74" y="299.72" smashed="yes">
-<attribute name="NAME" x="713.74" y="301.244" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="713.74" y="298.196" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="LED5" gate="G$1" x="678.18" y="233.68" smashed="yes">
 <attribute name="NAME" x="681.736" y="229.108" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="683.895" y="229.108" size="1.778" layer="96" rot="R90"/>
@@ -8737,10 +8711,6 @@ Allows current flow when high potential at base.</description>
 <instance part="R22" gate="G$1" x="807.72" y="276.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="806.196" y="276.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="809.244" y="276.86" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R23" gate="G$1" x="840.74" y="304.8" smashed="yes">
-<attribute name="NAME" x="840.74" y="306.324" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="840.74" y="303.276" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="LED6" gate="G$1" x="805.18" y="238.76" smashed="yes">
 <attribute name="NAME" x="808.736" y="234.188" size="1.778" layer="95" rot="R90"/>
@@ -8984,6 +8954,37 @@ Allows current flow when high potential at base.</description>
 <wire x1="-2.54" y1="22.86" x2="-20.32" y2="22.86" width="0.1524" layer="91"/>
 <label x="-20.32" y="22.86" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="PWR-LED" gate="G$1" pin="C"/>
+<wire x1="-58.42" y1="119.38" x2="-58.42" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V-RELAY" class="0">
+<segment>
+<wire x1="-81.28" y1="99.06" x2="-81.28" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="99.06" x2="-76.2" y2="99.06" width="0.1524" layer="91"/>
+<label x="-76.2" y="99.06" size="1.778" layer="95"/>
+<pinref part="REG-1" gate="A1" pin="VO"/>
+<wire x1="-96.52" y1="101.6" x2="-81.28" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="101.6" x2="-81.28" y2="99.06" width="0.1524" layer="91"/>
+<junction x="-81.28" y="99.06"/>
+<pinref part="REG-2" gate="A1" pin="VO"/>
+<wire x1="-96.52" y1="78.74" x2="-81.28" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="-35.56" y="91.44" size="1.778" layer="95"/>
+<wire x1="-40.64" y1="91.44" x2="-35.56" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="96.52" x2="-40.64" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="96.52" x2="-40.64" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="RELAY-5V" gate="CON" pin="1"/>
+<wire x1="-2.54" y1="91.44" x2="-5.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="91.44" x2="-5.08" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="99.06" x2="-20.32" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="99.06" x2="-20.32" y2="96.52" width="0.1524" layer="91"/>
+</segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="238.76" x2="177.8" y2="241.3" width="0.1524" layer="91"/>
@@ -9085,37 +9086,6 @@ Allows current flow when high potential at base.</description>
 <wire x1="855.98" y1="284.48" x2="830.58" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="855.98" y1="281.94" x2="855.98" y2="284.48" width="0.1524" layer="91"/>
 <junction x="855.98" y="284.48"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="PWR-LED" gate="G$1" pin="C"/>
-<wire x1="-58.42" y1="119.38" x2="-58.42" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="5V-RELAY" class="0">
-<segment>
-<wire x1="-81.28" y1="99.06" x2="-81.28" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="99.06" x2="-76.2" y2="99.06" width="0.1524" layer="91"/>
-<label x="-76.2" y="99.06" size="1.778" layer="95"/>
-<pinref part="REG-1" gate="A1" pin="VO"/>
-<wire x1="-96.52" y1="101.6" x2="-81.28" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="101.6" x2="-81.28" y2="99.06" width="0.1524" layer="91"/>
-<junction x="-81.28" y="99.06"/>
-<pinref part="REG-2" gate="A1" pin="VO"/>
-<wire x1="-96.52" y1="78.74" x2="-81.28" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="-35.56" y="91.44" size="1.778" layer="95"/>
-<wire x1="-40.64" y1="91.44" x2="-35.56" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="96.52" x2="-40.64" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="96.52" x2="-40.64" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="RELAY-5V" gate="CON" pin="1"/>
-<wire x1="-2.54" y1="91.44" x2="-5.08" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="91.44" x2="-5.08" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="99.06" x2="-20.32" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="99.06" x2="-20.32" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">

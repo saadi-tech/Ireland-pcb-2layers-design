@@ -8187,7 +8187,7 @@ Allows current flow when high potential at base.</description>
 <part name="NEXT-BT" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" override_package3d_urn="urn:adsk.eagle:package:24334271/2" override_package_urn="urn:adsk.eagle:footprint:24334272/1"/>
 <part name="UP-BT" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" override_package3d_urn="urn:adsk.eagle:package:24334274/2" override_package_urn="urn:adsk.eagle:footprint:24334275/1"/>
 <part name="DOWN-BT" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" override_package3d_urn="urn:adsk.eagle:package:24334338/2" override_package_urn="urn:adsk.eagle:footprint:24334339/1"/>
-<part name="R3" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="CA6V" package3d_urn="urn:adsk.eagle:package:22691/1" override_package3d_urn="urn:adsk.eagle:package:24334341/2" override_package_urn="urn:adsk.eagle:footprint:22635/1"/>
+<part name="R3" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="CA6V" package3d_urn="urn:adsk.eagle:package:22691/1" override_package3d_urn="urn:adsk.eagle:package:24334341/2" override_package_urn="urn:adsk.eagle:footprint:22635/1" value="10k"/>
 <part name="CHIP-REGULATOR" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="DT" package3d_urn="urn:adsk.eagle:package:16415/2" technology="05"/>
 <part name="LCD1" library="SparkFun-Displays" deviceset="LCD-16X2" device="NOHOLES" override_package3d_urn="urn:adsk.eagle:package:24334248/2" override_package_urn="urn:adsk.eagle:footprint:24334249/1"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH_BREAD" override_package3d_urn="urn:adsk.eagle:package:24334302/2" override_package_urn="urn:adsk.eagle:footprint:24334303/1"/>
@@ -8222,7 +8222,7 @@ Allows current flow when high potential at base.</description>
 <part name="C1" library="SparkFun-Capacitors" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" override_package3d_urn="urn:adsk.eagle:package:24339134/2" override_package_urn="urn:adsk.eagle:footprint:24339135/1" value="100uF"/>
 <part name="PWR-CHK-REG" library="adafruit" deviceset="78*" device="DT" override_package3d_urn="urn:adsk.eagle:package:24339171/2" override_package_urn="urn:adsk.eagle:footprint:24339173/1" technology="05"/>
 <part name="D1" library="adafruit" deviceset="1N4004" device="" override_package3d_urn="urn:adsk.eagle:package:24340694/2" override_package_urn="urn:adsk.eagle:footprint:24340695/1"/>
-<part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
+<part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:24458744/2" override_package_urn="urn:adsk.eagle:footprint:21858/1"/>
 <part name="K1" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device=""/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
@@ -8231,7 +8231,9 @@ Allows current flow when high potential at base.</description>
 <part name="D2" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D3" library="adafruit" deviceset="1N4004" device=""/>
 <part name="VALVE-B" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
-<part name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
+<part name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:24458748/2" override_package_urn="urn:adsk.eagle:footprint:21858/1">
+<attribute name="SPICEPREFIX" value="O"/>
+</part>
 <part name="K2" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device=""/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
@@ -8240,7 +8242,7 @@ Allows current flow when high potential at base.</description>
 <part name="D4" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D5" library="adafruit" deviceset="1N4004" device=""/>
 <part name="VALVE-A1" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
-<part name="OK3" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
+<part name="OK3" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:24458759/2" override_package_urn="urn:adsk.eagle:footprint:21858/1"/>
 <part name="K3" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device=""/>
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
@@ -8249,7 +8251,7 @@ Allows current flow when high potential at base.</description>
 <part name="D6" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D7" library="adafruit" deviceset="1N4004" device=""/>
 <part name="VALVE-C" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
-<part name="OK4" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
+<part name="OK4" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:24458765/2" override_package_urn="urn:adsk.eagle:footprint:21858/1"/>
 <part name="K4" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device=""/>
 <part name="Q4" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
@@ -8258,7 +8260,7 @@ Allows current flow when high potential at base.</description>
 <part name="D8" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D9" library="adafruit" deviceset="1N4004" device=""/>
 <part name="VALVE-D" library="dp_devices" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
-<part name="OK5" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
+<part name="OK5" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:24458771/2" override_package_urn="urn:adsk.eagle:footprint:21858/1"/>
 <part name="K5" library="SRD-05VDC-SL-C" deviceset="SRD-05VDC-SL-C" device=""/>
 <part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBTA42" value="500mA/300V"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value=" "/>
@@ -8954,6 +8956,37 @@ Allows current flow when high potential at base.</description>
 <wire x1="-2.54" y1="22.86" x2="-20.32" y2="22.86" width="0.1524" layer="91"/>
 <label x="-20.32" y="22.86" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="PWR-LED" gate="G$1" pin="C"/>
+<wire x1="-58.42" y1="119.38" x2="-58.42" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V-RELAY" class="0">
+<segment>
+<wire x1="-81.28" y1="99.06" x2="-81.28" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="99.06" x2="-76.2" y2="99.06" width="0.1524" layer="91"/>
+<label x="-76.2" y="99.06" size="1.778" layer="95"/>
+<pinref part="REG-1" gate="A1" pin="VO"/>
+<wire x1="-96.52" y1="101.6" x2="-81.28" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="101.6" x2="-81.28" y2="99.06" width="0.1524" layer="91"/>
+<junction x="-81.28" y="99.06"/>
+<pinref part="REG-2" gate="A1" pin="VO"/>
+<wire x1="-96.52" y1="78.74" x2="-81.28" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="-35.56" y="91.44" size="1.778" layer="95"/>
+<wire x1="-40.64" y1="91.44" x2="-35.56" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="96.52" x2="-40.64" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="96.52" x2="-40.64" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="RELAY-5V" gate="CON" pin="1"/>
+<wire x1="-2.54" y1="91.44" x2="-5.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="91.44" x2="-5.08" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="99.06" x2="-20.32" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="99.06" x2="-20.32" y2="96.52" width="0.1524" layer="91"/>
+</segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="238.76" x2="177.8" y2="241.3" width="0.1524" layer="91"/>
@@ -9055,37 +9088,6 @@ Allows current flow when high potential at base.</description>
 <wire x1="855.98" y1="284.48" x2="830.58" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="855.98" y1="281.94" x2="855.98" y2="284.48" width="0.1524" layer="91"/>
 <junction x="855.98" y="284.48"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="PWR-LED" gate="G$1" pin="C"/>
-<wire x1="-58.42" y1="119.38" x2="-58.42" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="5V-RELAY" class="0">
-<segment>
-<wire x1="-81.28" y1="99.06" x2="-81.28" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="99.06" x2="-76.2" y2="99.06" width="0.1524" layer="91"/>
-<label x="-76.2" y="99.06" size="1.778" layer="95"/>
-<pinref part="REG-1" gate="A1" pin="VO"/>
-<wire x1="-96.52" y1="101.6" x2="-81.28" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="101.6" x2="-81.28" y2="99.06" width="0.1524" layer="91"/>
-<junction x="-81.28" y="99.06"/>
-<pinref part="REG-2" gate="A1" pin="VO"/>
-<wire x1="-96.52" y1="78.74" x2="-81.28" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="-35.56" y="91.44" size="1.778" layer="95"/>
-<wire x1="-40.64" y1="91.44" x2="-35.56" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="96.52" x2="-40.64" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="96.52" x2="-40.64" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="RELAY-5V" gate="CON" pin="1"/>
-<wire x1="-2.54" y1="91.44" x2="-5.08" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="91.44" x2="-5.08" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="99.06" x2="-20.32" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="99.06" x2="-20.32" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
